@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "7572D9A8-4DB7-4589-9405-B3BC9C311933",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "-disableSimulatorCloning"
+      }
+    ]
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:CBSearchApp.xcodeproj",
+        "identifier" : "405919E52D68689400EDC9FA",
+        "name" : "CBSearchAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
